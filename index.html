@@ -16,6 +16,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
 
+   <!-- Swiper css  -->
+  <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
   <title>Portafolio Abraham</title>
 
   <link rel="icon" href="assets/img/apple-icon-57x57.png" type="image/png">
@@ -235,111 +237,73 @@ Además, tengo conocimientos en el manejo del DOM y la manipulación de datos y 
         </div>
     </div>
 </section>
-
-    <section id="projects" class="projects section">
-      <h2 class="section__title">Proyectos</h2>
-      <!-- PROYECTO 1  -->
-      <div class="projects__container grid--container">
-        <div class="projects__project">
-          <div class="projects__inner grid--container">
-            <div class="projects__image">
-              <img src="assets/img/project1.jpg" alt="project 1" />
-            </div>
-
-            <div class="projects__info">
-              <h3 class="projects__name">Proyecto 1</h3>
-              <p class="projects__description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-
-              <div class="projects__buttons">
-                <button class="btn projects__button" type="button">
-                  VER DEMO
-                </button>
-                <button class="btn projects__button" type="button">
-                  VER CÓDIGO
-                </button>
+ <!-- proyectos -->
+ <div class="slide-container swiper">
+  <div class="slide-content">
+      <div class="card-wrapper swiper-wrapper">
+          <div class="card swiper-slide">
+              <div class="image-content">
+                  <span class="overlay"></span>
+                  <div class="card-image">
+                      <img class="card_img" src="./assets/img/project1.jpg" target="_blank" alt="">
+                  </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <!-- PROYECTO 2  -->
-
-        <div class="projects__project">
-          <div class="projects__inner grid--container">
-            <div class="projects__image">
-              <img src="assets/img/project2.png" alt="project 2" />
-            </div>
-
-            <div class="projects__info">
-              <h3 class="projects__name">Proyecto 2</h3>
-              <p class="projects__description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-
-              <div class="projects__buttons">
-                <button class="btn projects__button" type="button">
-                  VER DEMO
-                </button>
-                <button class="btn projects__button" type="button">
-                  VER CÓDIGO
-                </button>
+              <div class="card-content">
+                  <h2 class="name">Proyecto 1</h2>
+                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                  <a class="button" href="https://climaacadelmo.netlify.app/">Ver Proyecto</a>
               </div>
-            </div>
           </div>
-        </div>
-        <!-- PROYECTO 3 -->
-
-        <div class="projects__project">
-          <div class="projects__inner grid--container">
-            <div class="projects__image">
-              <img src="assets/img/project3.jpg" alt="project 3" />
-            </div>
-
-            <div class="projects__info">
-              <h3 class="projects__name">Proyecto 3</h3>
-              <p class="projects__description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-
-              <div class="projects__buttons">
-                <button class="btn projects__button" type="button">
-                  VER DEMO
-                </button>
-                <button class="btn projects__button" type="button">
-                  VER CÓDIGO
-                </button>
+          <div class="card swiper-slide">
+              <div class="image-content">
+                  <span class="overlay"></span>
+                  <div class="card-image">
+                    <img class="card_img" src="./assets/img/project2.jpg" alt="">
+                  </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <!-- PROYECTO 4  -->
-
-        <div class="projects__project">
-          <div class="projects__inner grid--container">
-            <div class="projects__image">
-              <img src="assets/img/project4.png" alt="project 4" />
-            </div>
-
-            <div class="projects__info">
-              <h3 class="projects__name">Proyecto 4</h3>
-              <p class="projects__description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-
-              <div class="projects__buttons">
-                <button class="btn projects__button" type="button">
-                  VER DEMO
-                </button>
-                <button class="btn projects__button" type="button">
-                  VER CÓDIGO
-                </button>
+              <div class="card-content">
+                  <h2 class="name">Proyecto 2</h2>
+                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                  <a class="button" href="https://ricamorty.netlify.app/">Ver Proyecto</a>
               </div>
-            </div>
           </div>
-        </div>
+          <div class="card swiper-slide">
+              <div class="image-content">
+                  <span class="overlay"></span>
+                  <div class="card-image">
+                    <img class="card_img" src="./assets/img/project3.jpg" alt="">
+                  </div>
+              </div>
+              <div class="card-content">
+                  <h2 class="name">Proyecto 3</h2>
+                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                  <a class="button" href="https://profound-valkyrie-331083.netlify.app/#/">Ver Proyecto</a>
+              </div>
+          </div>
+          <div class="card swiper-slide">
+              <div class="image-content">
+                  <span class="overlay"></span>
+                  <div class="card-image">
+                    <img class="card_img" src="./assets/img/project4.jpg" alt="">
+                  </div>
+              </div>
+              <div class="card-content">
+                  <h2 class="name">Proyecto 4</h2>
+                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                   <a class="button" href="https://stirring-lily-21d166.netlify.app/">Ver proyecto</a>
+              </div>
+          </div>
+          
+          
+          
+         
+         
       </div>
-    </section>
+  </div>
+  <div class="swiper-button-next swiper-navBtn"></div>
+  <div class="swiper-button-prev swiper-navBtn"></div>
+  <div class="swiper-pagination"></div>
+</div>
 
     <section id="contact" class="contact section">
       <h2 class="section__title">Contacto</h2>
@@ -454,5 +418,10 @@ Además, tengo conocimientos en el manejo del DOM y la manipulación de datos y 
 
 </footer>
 </body>
+ <!-- Swiper JS -->
+<script src="./assets/js/swiper-bundle.min.js"></script>
+
+ <!-- JavaScript  -->
+ <script src="./assets/js/swiper.js"></script>
 
 </html>
